@@ -10,39 +10,41 @@ body {
 section {
   clear:both;
   padding-bottom: 30px;
+  float: left;
+  width: 100%;
 }
 
-article {
-    background-color: #fff;
-    color: #000;
+div {
+    float: left;
     width: 50%;
-    margin: auto;
     padding: 20px;
+}
+
+
+article {
+    color: #000;
+    width: 35%;
+    padding: 20px;
+    float: left;
   }
 
 
 h1 {
+  padding: 25px;
   float: left;
   margin-top: 0;
   color: #fff;
-
 }
 
 h2 {
-  padding: 30px;
-  margin: 0;
+  padding: 10px;
   font-size: 50px;
 }
 
-h2, section > p {
-    text-align: center;
-}
 
-img {
-  display: block;
-  margin: auto;
+footer {
+  clear: both;
 }
-
 
 footer p {
   text-align: center;
@@ -52,10 +54,13 @@ footer p {
   color: #fff;
 }
 
+
 /*nav styles*/
 
 nav {
     float: right;
+    padding-right: 30px;
+    padding-top: 30px;
 }
 
 
@@ -70,10 +75,14 @@ nav li {
 }
 
 header{
-  padding: 20px;
-
-
+  float: left;
+  width: 100%;
 }
+
+
+
+
+
 
  #cougar {
     background: #FFD5AE; /* pale peach*/
@@ -81,7 +90,6 @@ header{
 
 #lion {
     background:  #FFBD82; /*peach*/
-
       }
 
 #tiger {
